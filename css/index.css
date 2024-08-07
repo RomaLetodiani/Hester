@@ -1,312 +1,311 @@
-
 * {
-    margin: 0;
-    padding: 0;
+  margin: 0;
+  padding: 0;
 }
 
 body {
-    font-family: 'Poppins';
-    min-width: 800px;
+  font-family: "Poppins";
+  min-width: 800px;
 }
 
 a {
-    color: white;
-    text-decoration: none;
+  color: white;
+  text-decoration: none;
 }
 
 /* header */
 
 #header {
-    position: relative;
-    background-image: url(/images/main-banner.jpg);
-    background-repeat: no-repeat;
-    height: 930px;
-    background-position: center top;
-    background-size: cover;
-    display: flex;
-    flex-direction: column;
-    color: #ffffff;
+  position: relative;
+  background-image: url(/images/main-banner.jpg);
+  background-repeat: no-repeat;
+  height: 930px;
+  background-position: center top;
+  background-size: cover;
+  display: flex;
+  flex-direction: column;
+  color: #ffffff;
 }
 
 .color-overlay {
-    position: absolute;
-    top: 0;
-    left: 0;
-    width: 100%;
-    height: 100%;
-    background-color: rgba(223,124,109, 0.15);
-    color: transparent;
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(223, 124, 109, 0.15);
+  color: transparent;
 }
 
 .start-menu {
-    padding: 50px 75px;
-    display: flex;
-    justify-content: space-between;
+  padding: 50px 75px;
+  display: flex;
+  justify-content: space-between;
 }
 
 .left-start-menu {
-    display: flex;
-    gap: 25px;
-    color: white;
-    align-items: center;
+  display: flex;
+  gap: 25px;
+  color: white;
+  align-items: center;
 }
 
 .left-start-menu > span {
-    cursor: pointer;
+  cursor: pointer;
 }
 
 .title {
-    cursor: pointer;
-    font-family: 'Poppins';
-    font-size: 40px;
-    margin-left: -90px;
+  cursor: pointer;
+  font-family: "Poppins";
+  font-size: 40px;
+  margin-left: -90px;
 }
 
 .login {
-    display: flex;
-    gap: 60px;
-    color: white;
-    align-items: center;
+  display: flex;
+  gap: 60px;
+  color: white;
+  align-items: center;
 }
 
 .login > span {
-    cursor: pointer;
+  cursor: pointer;
 }
 
 .start {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    flex-direction: column;
-    padding: 270px 0px 0px 0px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  padding: 270px 0px 0px 0px;
 }
 
 .start > p {
-    font-family: 'Poppins-bold';
-    color: white;
-    font-size: 70px;
+  font-family: "Poppins-bold";
+  color: white;
+  font-size: 70px;
 }
 
 .start > button {
-    background-color: white;
-    color: rgb(223,124,109);
-    border: 0;
-    padding: 20px 60px;
-    margin-top: 25px;
-    font-size: 19px;
-    transition: 0.4s;
+  background-color: white;
+  color: rgb(223, 124, 109);
+  border: 0;
+  padding: 20px 60px;
+  margin-top: 25px;
+  font-size: 19px;
+  transition: 0.4s;
 }
 .start > button:hover {
-    opacity: 0.8;
-    cursor: pointer;
+  opacity: 0.8;
+  cursor: pointer;
 }
 
 .start > button > span {
-    display: flex;
-    flex-direction: column;
+  display: flex;
+  flex-direction: column;
 }
 
 /* main */
 
 #main {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
-    padding: 110px 250px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  padding: 110px 250px;
 }
 
 .main-start {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
-    gap: 30px;
-    color: rgb(35,35,35);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 30px;
+  color: rgb(35, 35, 35);
 }
 
 .main-start > div {
-    font-family: 'Poppins';
-    font-weight: bold;
-    font-size: 40px;
-    color: black;
+  font-family: "Poppins";
+  font-weight: bold;
+  font-size: 40px;
+  color: black;
 }
 
 .main-start > span {
-    font-size: 18px;
+  font-size: 18px;
 }
 
 .main-images {
-    display: flex;
-    width: 100%;
-    height: 500px;
-    padding: 150px 0px;
+  display: flex;
+  width: 100%;
+  height: 500px;
+  padding: 150px 0px;
 }
 
 .img1 {
-    background-image: url(/images/product1.jpg);
-    background-repeat: no-repeat;
-    flex: 1;
-    width: 100%;
+  background-image: url(/Hester/images/product1.jpg);
+  background-repeat: no-repeat;
+  flex: 1;
+  width: 100%;
 }
 
 .img2 {
-    background-image: url(/images/product2.jpg);
-    background-repeat: no-repeat;
-    flex: 1;
-    width: 100%;
+  background-image: url(/Hester/images/product2.jpg);
+  background-repeat: no-repeat;
+  flex: 1;
+  width: 100%;
 }
 
 .img3 {
-    background-image: url(/images/product3.jpg);
-    background-repeat: no-repeat;
-    flex: 1;
-    width: 100%;
+  background-image: url(/Hester/images/product3.jpg);
+  background-repeat: no-repeat;
+  flex: 1;
+  width: 100%;
 }
 
 #main > div > button {
-    background-color: rgb(223,124,109);
-    color: white;
-    border: 0;
-    padding: 25px 40px;
-    margin-top: 25px;
-    font-size: 19px;
-    transition: 0.4s;
+  background-color: rgb(223, 124, 109);
+  color: white;
+  border: 0;
+  padding: 25px 40px;
+  margin-top: 25px;
+  font-size: 19px;
+  transition: 0.4s;
 }
 
 #main > div > button:hover {
-    cursor: pointer;
-    opacity: 0.8;
+  cursor: pointer;
+  opacity: 0.8;
 }
 
 .mid-img {
-    background-image: url(/images/mid-banner.jpg);
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: cover;
-    width: 100%;
-    height: 930px;
+  background-image: url(/Hester/images/mid-banner.jpg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  width: 100%;
+  height: 930px;
 }
 
 .bottom {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    flex-direction: column;
-    padding: 100px 200px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  padding: 100px 200px;
 }
 
 .bottom-images {
-    display: flex;
-    width: 100%;
-    height: 500px;
-    padding: 250px 50px 0;
-    justify-content: center;
-    gap: 60px;
+  display: flex;
+  width: 100%;
+  height: 500px;
+  padding: 250px 50px 0;
+  justify-content: center;
+  gap: 60px;
 }
 
 .img4 {
-    background-image: url(/images/pickle.jpg);
-    background-repeat: no-repeat;
-    width: 500px;
+  background-image: url(/Hester/images/pickle.jpg);
+  background-repeat: no-repeat;
+  width: 500px;
 }
 
 .img5 {
-    background-image: url(/images/chilli.jpg);
-    background-repeat: no-repeat;
-    width: 500px;
+  background-image: url(/Hester/images/chilli.jpg);
+  background-repeat: no-repeat;
+  width: 500px;
 }
 
 .img6 {
-    background-image: url(/images/cabbage.jpg);
-    background-repeat: no-repeat;
-    width: 500px;
+  background-image: url(/Hester/images/cabbage.jpg);
+  background-repeat: no-repeat;
+  width: 500px;
 }
 
 .bottom-start {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
-    gap: 30px;
-    color: rgb(35,35,35);
-    padding: 50px 0px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 30px;
+  color: rgb(35, 35, 35);
+  padding: 50px 0px;
 }
 
 .bottom-start > div {
-    font-family: 'Poppins';
-    font-weight: bold;
-    font-size: 50px;
-    color: black;
+  font-family: "Poppins";
+  font-weight: bold;
+  font-size: 50px;
+  color: black;
 }
 
 .bottom-start > span {
-    font-size: 18px;
+  font-size: 18px;
 }
 
 .bottom > div > button {
-    background-color: rgb(223,124,109);
-    color: white;
-    border: 0;
-    padding: 25px 40px;
-    font-size: 19px;
-    transition: 0.4s;
+  background-color: rgb(223, 124, 109);
+  color: white;
+  border: 0;
+  padding: 25px 40px;
+  font-size: 19px;
+  transition: 0.4s;
 }
 
 .bottom > div > button:hover {
-    cursor: pointer;
-    opacity: 0.8;
+  cursor: pointer;
+  opacity: 0.8;
 }
 
 /* footer */
 
 #footer {
-    background-color: rgb(223,124,109);
-    padding: 80px 200px 125px;
-    color: white;
-    display: flex;
-    justify-content: space-between;
+  background-color: rgb(223, 124, 109);
+  padding: 80px 200px 125px;
+  color: white;
+  display: flex;
+  justify-content: space-between;
 }
 
 .footer-menu > div {
-    display: flex;
-    flex-direction: column;
-    padding: 30px 0;
-    line-height: 2;
+  display: flex;
+  flex-direction: column;
+  padding: 30px 0;
+  line-height: 2;
 }
 
 .footer-menu > h4 {
-    font-size: 22px;
-    margin-bottom: 10px;
+  font-size: 22px;
+  margin-bottom: 10px;
 }
 
 .socials {
-    display: flex;
-    flex-direction: column;
-    width: 16px;
-    gap: 10px;
+  display: flex;
+  flex-direction: column;
+  width: 16px;
+  gap: 10px;
 }
 
 .fb {
-    background-image: url(/images/facebook-16.png);
-    background-repeat: no-repeat;
-    background-size: cover;
-    width: 20px;
-    height: 20px;
+  background-image: url(/Hester/images/facebook-16.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+  width: 20px;
+  height: 20px;
 }
 
 .twitter {
-    background-image: url(/images/twitter-16.png);
-    background-repeat: no-repeat;
-    background-size: cover;
-    width: 20px;
-    height: 20px;
+  background-image: url(/Hester/images/twitter-16.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+  width: 20px;
+  height: 20px;
 }
 
 .insta {
-    background-image: url(/images/instagram-16.png);
-    background-repeat: no-repeat;
-    background-size: cover;
-    width: 20px;
-    height: 20px;
+  background-image: url(/Hester/images/instagram-16.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+  width: 20px;
+  height: 20px;
 }
