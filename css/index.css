@@ -17,7 +17,7 @@ a {
 
 #header {
   position: relative;
-  background-image: url(/images/main-banner.jpg);
+  background-image: url("../images/main-banner.jpg");
   background-repeat: no-repeat;
   height: 930px;
   background-position: center top;
@@ -143,21 +143,21 @@ a {
 }
 
 .img1 {
-  background-image: url(/Hester/images/product1.jpg);
+  background-image: url("../images/product1.jpg");
   background-repeat: no-repeat;
   flex: 1;
   width: 100%;
 }
 
 .img2 {
-  background-image: url(/Hester/images/product2.jpg);
+  background-image: url("../images/product2.jpg");
   background-repeat: no-repeat;
   flex: 1;
   width: 100%;
 }
 
 .img3 {
-  background-image: url(/Hester/images/product3.jpg);
+  background-image: url("../images/product3.jpg");
   background-repeat: no-repeat;
   flex: 1;
   width: 100%;
@@ -179,7 +179,7 @@ a {
 }
 
 .mid-img {
-  background-image: url(/Hester/images/mid-banner.jpg);
+  background-image: url("../images/mid-banner.jpg");
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
@@ -205,19 +205,19 @@ a {
 }
 
 .img4 {
-  background-image: url(/Hester/images/pickle.jpg);
+  background-image: url("../images/pickle.jpg");
   background-repeat: no-repeat;
   width: 500px;
 }
 
 .img5 {
-  background-image: url(/Hester/images/chilli.jpg);
+  background-image: url("../images/chilli.jpg");
   background-repeat: no-repeat;
   width: 500px;
 }
 
 .img6 {
-  background-image: url(/Hester/images/cabbage.jpg);
+  background-image: url("../images/cabbage.jpg");
   background-repeat: no-repeat;
   width: 500px;
 }
@@ -287,7 +287,7 @@ a {
 }
 
 .fb {
-  background-image: url(/Hester/images/facebook-16.png);
+  background-image: url("../images/facebook-16.png");
   background-repeat: no-repeat;
   background-size: cover;
   width: 20px;
@@ -295,7 +295,7 @@ a {
 }
 
 .twitter {
-  background-image: url(/Hester/images/twitter-16.png);
+  background-image: url("../images/twitter-16.png");
   background-repeat: no-repeat;
   background-size: cover;
   width: 20px;
@@ -303,7 +303,7 @@ a {
 }
 
 .insta {
-  background-image: url(/Hester/images/instagram-16.png);
+  background-image: url("../images/instagram-16.png");
   background-repeat: no-repeat;
   background-size: cover;
   width: 20px;
